@@ -1,0 +1,110 @@
+h1 {
+  color: #6C3E37;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 4px;
+}
+
+.line-after-h1 {
+  border-bottom: 1px solid #6C3E37; /* Add a solid line after the <h1> */
+  /* Additional styling properties if needed */
+  margin-bottom: 20px;
+}
+
+.line-after-img {
+  border-bottom: 1px solid #6C3E37; /* Add a solid line after the <h1> */
+  /* Additional styling properties if needed */
+  margin-top: 20px;
+}
+
+body {
+  color: #6C3E37;
+  background-color: #F4EBE8;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+#social-media > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#social-media {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#social-media > li > a {
+  color: #de0767;
+  font-size: 40px;
+}
+
+a {
+  color: #6C3E37;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border: 0.4px solid lightgrey;
+  border-radius: 2%;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 10%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border: 0.4px solid lightgrey;
+}
+
+.btn-pink {
+  background-color: #de0767;
+  color:#F4EBE8;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.card:first-child p {
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
